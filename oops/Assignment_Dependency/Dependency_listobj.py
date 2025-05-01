@@ -31,7 +31,7 @@ class Bill:
         for item_id,quantity in items_quantity.items():
             for item in items:
                 if item.get_item() == item_id:
-                    total+=item.__price_per_quantity()*quantity
+                    total+=item.get_price_per_quantity()*quantity
                     break
 
         self.__bill_amount=total
@@ -55,7 +55,7 @@ item1 = Item("I101", "Milk", 30)
 item2 = Item("I102", "Bread", 20)
 items = [item1, item2]
 
-# Quantities purchased
+
 item_quantity = {"I101": 2, "I102": 3}  # 2 Milk, 3 Bread
 
 # Create Bill

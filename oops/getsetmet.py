@@ -48,13 +48,16 @@ class Student:
     def choose_course(self, course_id):
         course_fees = {1001: 25575.0, 1002: 15500.0}
         if course_id in course_fees:
+            fees = course_fees[course_id]
+            if self.__marks > 85:
+                fees *= 0.75  # Apply 25% discount
             self.set_course_id(course_id)
-            self.set_fees(course_fees[course_id])
+            self.set_fees(fees)
             return True
         return False
 
 
-# Testing the class
+# Testing the Student class
 maddy = Student()
 maddy.set_student_id(1004)
 maddy.set_age(21)
@@ -64,6 +67,8 @@ if maddy.check_qualification():
     print("Student has qualified")
     if maddy.choose_course(1002):
         print("Course allocated")
+        print("Final Course ID:", maddy.get_course_id())
+        print("Final Fees to Pay:", maddy.get_fees())
     else:
         print("Invalid course id")
 else:
