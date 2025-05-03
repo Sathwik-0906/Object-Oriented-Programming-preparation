@@ -74,8 +74,6 @@ Imagine you are building a video game with cars. Each car has some properties li
    move_car(car1)  # Output: The car is moving
    move_car(car2)  # Output: The car is moving, with turbo boost activated!
 
-   
-
-
+" Encapsulation
 
 
