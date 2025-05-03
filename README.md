@@ -18,6 +18,8 @@ Imagine you are building a video game with cars. Each car has some properties li
    - A **class** defines the properties and behaviors that every car (object) must have. It’s like a template or blueprint.
    - Example: The class `Car` might define the properties `color`, `speed`, and `fuel`, and the methods `move()`, `stop()`, and `honk()`.
 
+
+
    ```python
    class Car:
        def __init__(self, color, speed, fuel):
