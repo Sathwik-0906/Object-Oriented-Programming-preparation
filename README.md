@@ -74,6 +74,17 @@ Imagine you are building a video game with cars. Each car has some properties li
    move_car(car1)  # Output: The car is moving
    move_car(car2)  # Output: The car is moving, with turbo boost activated!
 
-" Encapsulation
+# Encapsulation
+ Encapsulation is something like **Hiding** the data which is not needed and giving the exposure of the data which is needed 
+### Real-Life Example: TV Remote
+
+Imagine a **TV remote**:
+
+- The remote has **buttons** like power, volume up/down, and channel change.
+- You **don't need to know** how the remote works internally (e.g., its wiring or chips).
+- Instead, you **press buttons** to control the TV, and the remote handles the internal operations for you.
+
+Here, the **buttons** are **methods** (actions), and the **TV remote** is an **object**. The internal mechanism (wires, chips, etc.) is **hidden** from you, which is a perfect example of **encapsulation**.
+
 
 
