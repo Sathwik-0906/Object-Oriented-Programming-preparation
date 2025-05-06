@@ -82,7 +82,7 @@ class BasePackage(DirectToHomeService):
     def validate_base_pack_name(self):
         valid_names = ["Silver", "Gold", "Platinum"]
         if self.__base_pack_name not in valid_names:
-            print("Base package name is incorrect, set to Silver")
+            print(f"Consumer no :{self.get_consumer_number()}, Base package name is incorrect, set to Silver")
             self.__base_pack_name = "Silver"
 
     def calculate_monthly_rent(self):
