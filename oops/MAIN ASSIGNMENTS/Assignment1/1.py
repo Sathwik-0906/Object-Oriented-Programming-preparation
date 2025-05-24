@@ -2,11 +2,7 @@
 # Mega Mart, a retail shop, wants to record the number of items bought by its customers.
 
 # Write a python program to implement the class diagram given below.
-
-                                                           
-
 # Class Description:
-
 # list_of_items: Static list which contains the list of items available in the store. Initialize it with sample data as given - [Cake, Soap, Jam, Cereal, Hand Sanitizer, Biscuits, Bread]
 # list_of_count_of_each_item_sold: Static list which contains count of items sold. Initialize count of each item to 0
 # The above two lists have one-to-one correspondence
