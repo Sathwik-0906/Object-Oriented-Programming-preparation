@@ -2,8 +2,6 @@
 # Little Puppy Kennel sells dogs of different breeds. They want to automate their selling process.
 # Write a python program to implement the class diagram given below.
 
-                                                                                                                            
-
 # Class Description:
 
 # dog_breed_dict: Static dictionary which contains the breed of the dog as key and the number of dogs available as value. Initialize it with the sample data given.
