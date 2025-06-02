@@ -2,8 +2,7 @@
 # ABC DTH (Direct to Home) firm wants to calculate monthly rent for its consumers. 
 # A consumer can register for one Base Package. Write a python program to implement the below given class diagram.
 
-                              
-
+                            
 # Class Description:
 # DirectToHomeService class:
 
